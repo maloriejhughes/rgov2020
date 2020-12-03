@@ -42,8 +42,8 @@ dcrPalette <- c("#9D1C1E", "#E0B1AF", "#C06C74","#E2E1E4", "#181515", "#D49E97")
 ```{r set_params}
 MIN_DATE_TS='2020-12-02' # where should the time series start
 MIN_DATE='2020-11-30'
-tag = '#rstatsdc'   # what tweets to grab
-max.tweets = 10000   # at most how many?
+tag = 'rstatsdc'   # what tweets to grab
+max.tweets = 5000   # at most how many?
 
 
 ```
@@ -83,8 +83,11 @@ user_all_words <- prep_metrics_for_composite_score.fun(rstats_tweets, exclude_sc
  #rstatsdc
 =====================================
 
+```{r}
+source('R/build_the_gif.R')
+```
 
-![](IMAGES/rgov2020.png)
+![](R/rgov2020.png)
  
 
 </br>

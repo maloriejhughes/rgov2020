@@ -98,5 +98,5 @@ for(i in 1:nrow(media_id)){
 
 img %>% #image_join() %>% # joins image
   image_animate(fps=1) %>% # animates, can opt for number of loops
-  image_write(paste0("/Users/malorh/Dropbox/GITHUB/",folder,"/IMAGES/",tag,".gif"))
+  image_write(paste0(tag,".gif"))
 
